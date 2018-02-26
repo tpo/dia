@@ -5407,8 +5407,7 @@ msgstr "Netværksdiagram-objekter"
 msgid "Radius"
 msgstr "Radius"
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Bredde"
 
@@ -5464,186 +5463,17 @@ msgstr "SADT-boks"
 msgid "SADT diagram objects"
 msgstr "SADT-diagram-objekter"
 
-#: ../objects/Sozi/sozi.c:39
-msgid "Sozi presentation objects"
-msgstr "Sozi-præsentationsobjekter"
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr "Fri"
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr "Fast"
 
-#: ../objects/Sozi/sozi-frame.c:551
-msgid "Constant speed"
-msgstr "Konstant hastighed"
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr "Hurtigere"
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr "Hurtigere (stærk)"
-
-#: ../objects/Sozi/sozi-frame.c:554
-msgid "Speed down"
-msgstr "Langsommere"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr "Langsommere (stærk)"
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr "Hurtigere, så langsommere"
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr "Hurtigere, så langsommere (stærk)"
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr "Langsommere, så hurtigere"
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr "Langsommere, så hurtigere (stærk)"
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr "Med det samme (begyndelse)"
-
-#: ../objects/Sozi/sozi-frame.c:561
-msgid "Immediate (end)"
-msgstr "Med det samme (slut)"
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr "Med det samme (midt)"
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr "Geometri"
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-msgid "Center x"
-msgstr "Centrum x"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-msgid "Center y"
-msgstr "Centrum y"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-msgid "Height"
-msgstr "Højde"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-msgid "Angle (deg)"
-msgstr "Vinkel (grader)"
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
 msgstr "Højde/bredde-forhold"
-
-# Indgår i et arrray af "PropDescription", dvs. det lader til at være egenskaber (og ikke en handling)
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-msgid "Scale from center"
-msgstr "Skalering fra centrum"
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr "Signaturforklaring"
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-msgid "Legend is visible"
-msgstr "Signaturforklaring er synlig"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr "Sozi"
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr "Billedsekvens"
-
-#: ../objects/Sozi/sozi-frame.c:591
-msgid "Frame title"
-msgstr "Billedtitel"
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr "Skjul billede"
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr "Klip billede"
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr "Slå udløbstid for billede til"
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr "Udløbstid for billede (ms)"
-
-#: ../objects/Sozi/sozi-frame.c:596
-msgid "Frame transition profile"
-msgstr "Profil for billedovergang"
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr "Varighed af billedovergang (ms)"
-
-#: ../objects/Sozi/sozi-media.c:405
-msgid "undefined"
-msgstr "udefineret"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr "video/mp4"
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr "video/webm"
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr "video/ogg"
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr "audio/mpeg"
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr "audio/ogg"
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr "audio/wav"
-
-#: ../objects/Sozi/sozi-media.c:439
-msgid "Media type"
-msgstr "Medietype"
-
-#: ../objects/Sozi/sozi-media.c:440
-msgid "Media file"
-msgstr "Mediefil"
-
-#: ../objects/Sozi/sozi-media.c:441
-msgid "Start frame"
-msgstr "Startbillede"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
-msgstr "Slutbillede"
 
 #: ../objects/standard/arc.c:120
 msgid "Curve distance"
@@ -10802,18 +10632,6 @@ msgstr "Tilslutningspunkt"
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
 msgstr "Hovedforbindelsespunkt"
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr "Objekter til Sozi-præsentationer (zoom-UI)"
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr "Sozi-billede"
-
-#: ../sheets/Sozi.sheet.in.h:4
-msgid "Sozi media"
-msgstr "Sozi-medie"
 
 #: ../sheets/sybase.sheet.in.h:1
 msgid "Sybase"

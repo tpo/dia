@@ -5462,8 +5462,7 @@ msgstr "Αντικείμενα διαγράμματος δικτύου"
 msgid "Radius"
 msgstr "Ακτίνα"
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Πλάτος"
 
@@ -5519,200 +5518,17 @@ msgstr "Πλαίσιο SADT"
 msgid "SADT diagram objects"
 msgstr "Αντικείμενα διαγράμματος SADT"
 
-#: ../objects/Sozi/sozi.c:39
-#| msgid "/_Sort objects"
-msgid "Sozi presentation objects"
-msgstr "Αντικείμενα παρουσίασης Sozi"
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr "Ελεύθερο"
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr "Σταθερό"
 
-#: ../objects/Sozi/sozi-frame.c:551
-#| msgid "Constraint:"
-msgid "Constant speed"
-msgstr "Σταθερή ταχύτητα"
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr "Επιτάχυνση"
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr "Επιτάχυνση (ισχυρή)"
-
-#: ../objects/Sozi/sozi-frame.c:554
-#| msgid "Move down"
-msgid "Speed down"
-msgstr "Μείωση ταχύτητας"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr "Μείωση ταχύτητας (ισχυρή)"
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr "Αύξηση ταχύτητας, μετά μείωση"
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr "Επιτάχυνση, έπειτα επιβράδυνση (ισχυρή)"
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr "Επιβράδυνση, μετά επιτάχυνση"
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr "Επιβράδυνση, έπειτα επιτάχυνση (ισχυρή)"
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr "Άμεση (αρχή)"
-
-#: ../objects/Sozi/sozi-frame.c:561
-#| msgid "Intermediate Event"
-msgid "Immediate (end)"
-msgstr "Άμεση (τέλος)"
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr "Άμεση (μεσαία)"
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr "Γεωμετρία"
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-#| msgid "Center"
-msgid "Center x"
-msgstr "Κέντρο x"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-#| msgid "Center"
-msgid "Center y"
-msgstr "Κέντρο y"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-#| msgid "Height:"
-msgid "Height"
-msgstr "Ύψος"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-msgid "Angle (deg)"
-msgstr "Γωνία (μοίρες)"
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
 msgstr "Λόγος θέασης"
-
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-#| msgid "Alarm center"
-msgid "Scale from center"
-msgstr "Κλιμάκωση από το κέντρο"
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr "Υπόμνημα"
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-#| msgid "Comments visible"
-msgid "Legend is visible"
-msgstr "Το υπόμνημα είναι ορατό"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr "Sozi"
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr "Σειρά πλαισίων"
-
-#: ../objects/Sozi/sozi-frame.c:591
-#| msgid "Document title"
-msgid "Frame title"
-msgstr "Τίτλος πλαισίου"
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr "Απόκρυψη πλαισίου"
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr "Περικοπή πλαισίου"
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr "Ενεργοποίηση ορίου χρόνου πλαισίου"
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr "Όριο χρόνου πλαισίου (ms)"
-
-#: ../objects/Sozi/sozi-frame.c:596
-#| msgid "Transaction file"
-msgid "Frame transition profile"
-msgstr "Κατατομή μετάβασης πλαισίου"
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr "Διάρκεια μετάβασης πλαισίου (ms)"
-
-#: ../objects/Sozi/sozi-media.c:405
-#| msgid "Undefined"
-msgid "undefined"
-msgstr "αόριστο"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr "βίντεο/mp4"
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr "βίντεο/webm"
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr "βίντεο/ogg"
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr "ήχος/mpeg"
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr "ήχος/ogg"
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr "ήχος/wav"
-
-#: ../objects/Sozi/sozi-media.c:439
-#| msgid "Message type:"
-msgid "Media type"
-msgstr "Τύπος μέσων"
-
-#: ../objects/Sozi/sozi-media.c:440
-#| msgid "Diagram file"
-msgid "Media file"
-msgstr "Αρχείο μέσων"
-
-#: ../objects/Sozi/sozi-media.c:441
-#| msgid "Start time"
-msgid "Start frame"
-msgstr "Πλαίσιο έναρξης"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
-msgstr "Πλαίσιο διακοπής"
 
 #: ../objects/standard/arc.c:120
 msgid "Curve distance"
@@ -10872,19 +10688,6 @@ msgstr "Σημείο σύνδεσης"
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
 msgstr "Κύριο σημείο σύνδεσης"
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr "Αντικείμενα που θα κάνουν παρουσιάσεις Sozi (εστίαση διεπαφής χρήστη)"
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr "Πλαίσιο Sozi"
-
-#: ../sheets/Sozi.sheet.in.h:4
-#| msgid "BBFW media"
-msgid "Sozi media"
-msgstr "Μέσα Sozi"
 
 #: ../sheets/sybase.sheet.in.h:1
 msgid "Sybase"

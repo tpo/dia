@@ -5431,8 +5431,7 @@ msgstr "Објекти дијаграма мреже"
 msgid "Radius"
 msgstr "Полупречник"
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Ширина"
 
@@ -5489,198 +5488,17 @@ msgid "SADT diagram objects"
 msgstr "Објекти САДТ дијаграма"
 
 #
-#: ../objects/Sozi/sozi.c:39
-#| msgid "Snap to object"
-msgid "Sozi presentation objects"
-msgstr "Објекти Сози излагања"
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr "Слободно"
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr "Везано"
 
-#: ../objects/Sozi/sozi-frame.c:551
-#| msgid "Constraint:"
-msgid "Constant speed"
-msgstr "Стална брзина"
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr "Убрзај"
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr "Убрзај (јако)"
-
-#: ../objects/Sozi/sozi-frame.c:554
-msgid "Speed down"
-msgstr "Успори"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr "Успори (јако)"
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr "Убрзај, затим успори"
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr "Убрзај, затим успори (јако)"
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr "Успори, затим убрзај"
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr "Успори, затим убрзај (јако)"
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr "Одмах (почетак)"
-
-#: ../objects/Sozi/sozi-frame.c:561
-#| msgid "Intermediate Event"
-msgid "Immediate (end)"
-msgstr "Одмах (крај)"
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr "Одмах (средина)"
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr "Геометрија"
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-#| msgid "Center"
-msgid "Center x"
-msgstr "Средишње x"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-#| msgid "Center"
-msgid "Center y"
-msgstr "Средишње y"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-#| msgid "Height:"
-msgid "Height"
-msgstr "Висина"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-#| msgid "Angle"
-msgid "Angle (deg)"
-msgstr "Угао (°)"
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
 msgstr "Однос размере"
-
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-msgid "Scale from center"
-msgstr "Сразмери од средишта"
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr "Легенда"
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-#| msgid "Comments visible"
-msgid "Legend is visible"
-msgstr "Легенда је видљива"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr "Сози"
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr "Низ кадра"
-
-#: ../objects/Sozi/sozi-frame.c:591
-msgid "Frame title"
-msgstr "Наслов кадра"
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr "Висина кадра"
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr "Исечак кадра"
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr "Укључи временски истек кадра"
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr "Временски истек кадра (ms)"
-
-#: ../objects/Sozi/sozi-frame.c:596
-#| msgid "Transaction file"
-msgid "Frame transition profile"
-msgstr "Профил прелаза кадра"
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr "Трајање прелаза кадра (ms)"
-
-#: ../objects/Sozi/sozi-media.c:405
-#| msgid "Undefined"
-msgid "undefined"
-msgstr "неодређено"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr "видео/mp4"
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr "видео/webm"
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr "видео/ogg"
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr "аудио/mpeg"
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr "аудио/ogg"
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr "аудио/wav"
-
-#: ../objects/Sozi/sozi-media.c:439
-#| msgid "Message type:"
-msgid "Media type"
-msgstr "Врста медија"
-
-#: ../objects/Sozi/sozi-media.c:440
-#| msgid "Diagram file"
-msgid "Media file"
-msgstr "Датотека медија"
-
-#: ../objects/Sozi/sozi-media.c:441
-#| msgid "Start time"
-msgid "Start frame"
-msgstr "Почетни кадар"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
-msgstr "Завршни кадар"
 
 #: ../objects/standard/arc.c:120
 msgid "Curve distance"
@@ -10832,19 +10650,6 @@ msgstr "Тачка спајања"
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
 msgstr "Главна тачка спајања"
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr "Објекти да одраде Сози (кс увеличавања) излагања"
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr "Созијев кадар"
-
-#: ../sheets/Sozi.sheet.in.h:4
-#| msgid "BBFW media"
-msgid "Sozi media"
-msgstr "Созијев медиј"
 
 #: ../sheets/sybase.sheet.in.h:1
 msgid "Sybase"

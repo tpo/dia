@@ -5381,8 +5381,7 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Larĝo"
 
@@ -5436,202 +5435,16 @@ msgstr ""
 msgid "SADT diagram objects"
 msgstr ""
 
-#: ../objects/Sozi/sozi.c:39
-msgid "Sozi presentation objects"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr ""
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr ""
 
-#: ../objects/Sozi/sozi-frame.c:551
-msgid "Constant speed"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:554
-#, fuzzy
-#| msgid "Move down"
-msgid "Speed down"
-msgstr "Movi sube"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:561
-msgid "Immediate (end)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-#, fuzzy
-#| msgid "Center"
-msgid "Center x"
-msgstr "Centre"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-#, fuzzy
-#| msgid "Center"
-msgid "Center y"
-msgstr "Centre"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-#, fuzzy
-#| msgid "Height:"
-msgid "Height"
-msgstr "Alto:"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-msgid "Angle (deg)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-msgid "Scale from center"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-#, fuzzy
-#| msgid "Comment visible"
-msgid "Legend is visible"
-msgstr "Komento estas videbla"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:591
-msgid "Frame title"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:596
-msgid "Frame transition profile"
-msgstr ""
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:405
-#, fuzzy
-#| msgid "Undefined"
-msgid "undefined"
-msgstr "Nedifinita"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr ""
-
-#: ../objects/Sozi/sozi-media.c:439
-#, fuzzy
-#| msgid "Message type:"
-msgid "Media type"
-msgstr "Tipo de mesaĝo:"
-
-#: ../objects/Sozi/sozi-media.c:440
-#, fuzzy
-#| msgid "Diagram file"
-msgid "Media file"
-msgstr "Skemo-dosiero"
-
-#: ../objects/Sozi/sozi-media.c:441
-#, fuzzy
-#| msgid "Start time"
-msgid "Start frame"
-msgstr "Komenca horo"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
 msgstr ""
 
 #: ../objects/standard/arc.c:120
@@ -10736,18 +10549,6 @@ msgstr "Konekti"
 
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
-msgstr ""
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr ""
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr ""
-
-#: ../sheets/Sozi.sheet.in.h:4
-msgid "Sozi media"
 msgstr ""
 
 #: ../sheets/sybase.sheet.in.h:1

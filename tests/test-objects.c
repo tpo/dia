@@ -520,6 +520,7 @@ _test_connectionpoint_consistency (gconstpointer user_data)
         || strcmp (type->name, "Optics - Spectrum") == 0
         || strcmp (type->name, "GRAFCET - Transition") == 0
         || strcmp (type->name, "Standard - Polygon") == 0
+        || strcmp (type->name, "Transition") == 0
         || strcmp (type->name, "GRAFCET - Action") == 0)
       continue; /* undecided */
     /* Some things which should not be set */

@@ -523,6 +523,7 @@ _test_connectionpoint_consistency (gconstpointer user_data)
         || strcmp (type->name, "Transition") == 0
         || strcmp (type->name, "GRAFCET - Action") == 0)
       continue; /* undecided */
+      /* see https://gitlab.gnome.org/GNOME/dia/issues/7 for disabling the "Transition" test /*
     /* Some things which should not be set */
     if (cp->pos.x > center.x)
       g_assert ((cp->directions & DIR_WEST) == 0);

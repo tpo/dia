@@ -780,6 +780,8 @@ _test_draw (gconstpointer user_data)
 	    epsilon = 1.1; /* osx: 0.9 */
 	  else if (strcmp (type->name, "SDL - Comment") == 0)
 	    epsilon = 3.5; /* osx: 3.1 */
+	  else if (strcmp (type->name, "Transition") == 0)
+	    epsilon = 1.3; /* see https://gitlab.gnome.org/GNOME/dia/issues/8 */
 
 	  g_assert_cmpfloat (fabs (obb->top - pbb->top), <, epsilon);
 	  g_assert_cmpfloat (fabs (obb->left - pbb->left), <, epsilon);

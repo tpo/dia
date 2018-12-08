@@ -5368,8 +5368,7 @@ msgstr "Objekti mrežnog dijagrama"
 msgid "Radius"
 msgstr "Poluprečnik"
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Širina"
 
@@ -5425,185 +5424,17 @@ msgstr "SADT kućica"
 msgid "SADT diagram objects"
 msgstr "SADT dijagramski objekti"
 
-#: ../objects/Sozi/sozi.c:39
-msgid "Sozi presentation objects"
-msgstr "Sozi prezentacijski objekti"
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr "Slobodno"
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr "Fiksno"
 
-#: ../objects/Sozi/sozi-frame.c:551
-msgid "Constant speed"
-msgstr "Konstantna brzina"
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr "Ubrzaj"
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr "Ubzzaj (veoma)"
-
-#: ../objects/Sozi/sozi-frame.c:554
-msgid "Speed down"
-msgstr "Uspori"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr "Uspori (veoma)"
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr "Ubrzaj pa uspori"
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr "Ubrzaj pa uspori (veoma)"
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr "Uspori pa ubrzaj"
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr "Uspori pa ubrzaj (veoma)"
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr "Neposredno (početak)"
-
-#: ../objects/Sozi/sozi-frame.c:561
-msgid "Immediate (end)"
-msgstr "Neposredno (kraj)"
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr "Neposredno (sredina)"
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr "Geometrija"
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-msgid "Center x"
-msgstr "Centar x"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-msgid "Center y"
-msgstr "Centar y"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-msgid "Height"
-msgstr "Visina"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-msgid "Angle (deg)"
-msgstr "Ugao (stepeni)"
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
 msgstr "Razmjera"
-
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-msgid "Scale from center"
-msgstr "Raširi iz centra"
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr "Legenda"
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-msgid "Legend is visible"
-msgstr "Legenda je vidljiva"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr "Sozi"
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr "Redoslijed kadrova"
-
-#: ../objects/Sozi/sozi-frame.c:591
-msgid "Frame title"
-msgstr "Naslov kadra"
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr "Sakrij kadar"
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr "Odsječak kadra"
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr "Uključi istek kadra"
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr "Itek kadra (ms)"
-
-#: ../objects/Sozi/sozi-frame.c:596
-msgid "Frame transition profile"
-msgstr "Profil promjene kadra"
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr "Trajanje prelaska kadra"
-
-#: ../objects/Sozi/sozi-media.c:405
-msgid "undefined"
-msgstr "nedefinisano"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr "video/mp4"
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr "video/webm"
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr "video/ogg"
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr "audio/mpeg"
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr "audio/ogg"
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr "audio/wav"
-
-#: ../objects/Sozi/sozi-media.c:439
-msgid "Media type"
-msgstr "Vrsta medija"
-
-#: ../objects/Sozi/sozi-media.c:440
-msgid "Media file"
-msgstr "Datoteka medija"
-
-#: ../objects/Sozi/sozi-media.c:441
-msgid "Start frame"
-msgstr "Početni kadar"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
-msgstr "Zaustavni kadar"
 
 #: ../objects/standard/arc.c:120
 msgid "Curve distance"
@@ -10737,18 +10568,6 @@ msgstr "Tacka konekcije"
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
 msgstr "Glavna tacka konekcije"
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr "Objekti za rad Sozi (zumirajući korisnički interfejs) prezentacije"
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr "Sozi kadar"
-
-#: ../sheets/Sozi.sheet.in.h:4
-msgid "Sozi media"
-msgstr "Sozi medij"
 
 #: ../sheets/sybase.sheet.in.h:1
 msgid "Sybase"

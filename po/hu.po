@@ -5420,8 +5420,7 @@ msgstr "Hálózati diagramobjektumok"
 msgid "Radius"
 msgstr "Sugár"
 
-#: ../objects/network/wanlink.c:119 ../objects/Sozi/sozi-frame.c:575
-#: ../objects/Sozi/sozi-media.c:424
+#: ../objects/network/wanlink.c:119
 msgid "Width"
 msgstr "Szélesség"
 
@@ -5477,201 +5476,17 @@ msgstr "SADT-mező"
 msgid "SADT diagram objects"
 msgstr "SADT diagramobjektumok"
 
-#: ../objects/Sozi/sozi.c:39
-#| msgid "/_Sort objects"
-msgid "Sozi presentation objects"
-msgstr "Sozi bemutatóobjektumok"
-
-#: ../objects/Sozi/sozi-frame.c:544 ../objects/Sozi/sozi-media.c:398
 #: ../objects/standard/box.c:135 ../objects/standard/ellipse.c:127
 msgid "Free"
 msgstr "Szabad"
 
-#: ../objects/Sozi/sozi-frame.c:545 ../objects/Sozi/sozi-media.c:399
 #: ../objects/standard/box.c:136 ../objects/standard/ellipse.c:128
 msgid "Fixed"
 msgstr "Rögzített"
 
-#: ../objects/Sozi/sozi-frame.c:551
-#| msgid "Constraint:"
-msgid "Constant speed"
-msgstr "Állandó sebesség"
-
-#: ../objects/Sozi/sozi-frame.c:552
-msgid "Speed up"
-msgstr "Gyorsítás"
-
-#: ../objects/Sozi/sozi-frame.c:553
-msgid "Speed up (strong)"
-msgstr "Gyorsítás (erősen)"
-
-#: ../objects/Sozi/sozi-frame.c:554
-#| msgid "Move down"
-msgid "Speed down"
-msgstr "Lassítás"
-
-#: ../objects/Sozi/sozi-frame.c:555
-msgid "Speed down (strong)"
-msgstr "Lassítás (erősen)"
-
-#: ../objects/Sozi/sozi-frame.c:556
-msgid "Speed up, then down"
-msgstr "Gyorsítás, majd lassítás"
-
-#: ../objects/Sozi/sozi-frame.c:557
-msgid "Speed up, then down (strong)"
-msgstr "Gyorsítás, majd lassítás (erősen)"
-
-#: ../objects/Sozi/sozi-frame.c:558
-msgid "Speed down, then up"
-msgstr "Lassítás, majd gyorsítás"
-
-#: ../objects/Sozi/sozi-frame.c:559
-msgid "Speed down, then up (strong)"
-msgstr "Lassítás, majd gyorsítás (erősen)"
-
-#: ../objects/Sozi/sozi-frame.c:560
-msgid "Immediate (beginning)"
-msgstr "Köztes (kezdés)"
-
-#: ../objects/Sozi/sozi-frame.c:561
-#| msgid "Intermediate Event"
-msgid "Immediate (end)"
-msgstr "Köztes (vége)"
-
-#: ../objects/Sozi/sozi-frame.c:562
-msgid "Immediate (middle)"
-msgstr "Köztes (középen)"
-
-#: ../objects/Sozi/sozi-frame.c:572 ../objects/Sozi/sozi-media.c:421
-msgid "Geometry"
-msgstr "Geometria"
-
-#: ../objects/Sozi/sozi-frame.c:573 ../objects/Sozi/sozi-media.c:422
-#| msgid "Center"
-msgid "Center x"
-msgstr "X közép"
-
-#: ../objects/Sozi/sozi-frame.c:574 ../objects/Sozi/sozi-media.c:423
-#| msgid "Center"
-msgid "Center y"
-msgstr "Y közép"
-
-#: ../objects/Sozi/sozi-frame.c:576 ../objects/Sozi/sozi-media.c:425
-#| msgid "Height:"
-msgid "Height"
-msgstr "Magasság"
-
-#: ../objects/Sozi/sozi-frame.c:577 ../objects/Sozi/sozi-media.c:426
-#| msgid "Angle"
-msgid "Angle (deg)"
-msgstr "Szög (fok)"
-
-#: ../objects/Sozi/sozi-frame.c:578 ../objects/Sozi/sozi-media.c:427
 #: ../objects/standard/box.c:151 ../objects/standard/ellipse.c:140
 msgid "Aspect ratio"
 msgstr "Képarány"
-
-#: ../objects/Sozi/sozi-frame.c:579 ../objects/Sozi/sozi-media.c:428
-#| msgid "Alarm center"
-msgid "Scale from center"
-msgstr "Méretezés a közepétől"
-
-#: ../objects/Sozi/sozi-frame.c:581 ../objects/Sozi/sozi-media.c:430
-msgid "Legend"
-msgstr "Jelmagyarázat"
-
-#: ../objects/Sozi/sozi-frame.c:582 ../objects/Sozi/sozi-media.c:431
-#| msgid "Comments visible"
-msgid "Legend is visible"
-msgstr "A jelmagyarázat látható"
-
-#: ../objects/Sozi/sozi-frame.c:589 ../objects/Sozi/sozi-media.c:438
-#: ../sheets/Sozi.sheet.in.h:1
-msgid "Sozi"
-msgstr "Sozi"
-
-#: ../objects/Sozi/sozi-frame.c:590
-msgid "Frame sequence"
-msgstr "Képkockasorozat"
-
-#: ../objects/Sozi/sozi-frame.c:591
-#| msgid "Document title"
-msgid "Frame title"
-msgstr "Képkockacím"
-
-#: ../objects/Sozi/sozi-frame.c:592
-msgid "Frame hide"
-msgstr "Képkockaelrejtés"
-
-#: ../objects/Sozi/sozi-frame.c:593
-msgid "Frame clip"
-msgstr "Képkockavágás"
-
-#: ../objects/Sozi/sozi-frame.c:594
-msgid "Frame timeout enable"
-msgstr "Képkocka időkorlát engedélyezés"
-
-#: ../objects/Sozi/sozi-frame.c:595
-msgid "Frame timeout (ms)"
-msgstr "Képkocka időkorlát (ms)"
-
-#: ../objects/Sozi/sozi-frame.c:596
-#| msgid "Transaction file"
-msgid "Frame transition profile"
-msgstr "Képkockaátmenet profil"
-
-#: ../objects/Sozi/sozi-frame.c:597
-msgid "Frame transition duration (ms)"
-msgstr "Képkockaátmenet időtartam (ms)"
-
-#: ../objects/Sozi/sozi-media.c:405
-#| msgid "Undefined"
-msgid "undefined"
-msgstr "nincs meghatározva"
-
-#: ../objects/Sozi/sozi-media.c:406
-msgid "video/mp4"
-msgstr "videó/mp4"
-
-#: ../objects/Sozi/sozi-media.c:407
-msgid "video/webm"
-msgstr "videó/webm"
-
-#: ../objects/Sozi/sozi-media.c:408
-msgid "video/ogg"
-msgstr "videó/ogg"
-
-#: ../objects/Sozi/sozi-media.c:409
-msgid "audio/mpeg"
-msgstr "hang/mpeg"
-
-#: ../objects/Sozi/sozi-media.c:410
-msgid "audio/ogg"
-msgstr "hang/ogg"
-
-#: ../objects/Sozi/sozi-media.c:411
-msgid "audio/wav"
-msgstr "hang/wav"
-
-#: ../objects/Sozi/sozi-media.c:439
-#| msgid "Message type:"
-msgid "Media type"
-msgstr "Médiatípus"
-
-#: ../objects/Sozi/sozi-media.c:440
-#| msgid "Diagram file"
-msgid "Media file"
-msgstr "Médiafájl"
-
-#: ../objects/Sozi/sozi-media.c:441
-#| msgid "Start time"
-msgid "Start frame"
-msgstr "Kezdő képkocka"
-
-#: ../objects/Sozi/sozi-media.c:442
-msgid "Stop frame"
-msgstr "Leállító képkocka"
 
 #: ../objects/standard/arc.c:120
 msgid "Curve distance"
@@ -10824,19 +10639,6 @@ msgstr "Csatlakozási pont"
 #: ../sheets/Shape_Design.sheet.in.h:4
 msgid "Main Connection Point"
 msgstr "Fő csatlakozási pont"
-
-#: ../sheets/Sozi.sheet.in.h:2
-msgid "Objects to do Sozi (zooming ui) presentations"
-msgstr "Objektumok Sozi (nagyítási felület) bemutatók készítéséhez"
-
-#: ../sheets/Sozi.sheet.in.h:3
-msgid "Sozi frame"
-msgstr "Sozi képkocka"
-
-#: ../sheets/Sozi.sheet.in.h:4
-#| msgid "BBFW media"
-msgid "Sozi media"
-msgstr "Sozi média"
 
 #: ../sheets/sybase.sheet.in.h:1
 msgid "Sybase"

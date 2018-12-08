@@ -206,7 +206,7 @@ show_layers_parse_numbers(DiagramData *diagdata, gboolean *visible_layers, gint 
 
   if ( high <= low ) {
     /* This is not an errror */
-    g_print(_("Warning: invalid layer range %lu - %lu\n"), low, high-1 );
+    g_printerr(_("Warning: invalid layer range %lu - %lu\n"), low, high-1 );
     return;
   }
   if (high > n_layers)
@@ -218,7 +218,7 @@ show_layers_parse_numbers(DiagramData *diagdata, gboolean *visible_layers, gint 
       Layer *lay = (Layer *)g_ptr_array_index(diagdata->layers, i);
 
       if (visible_layers[i] == TRUE)
-	g_print(_("Warning: Layer %lu (%s) selected more than once.\n"), i, lay->name);
+        g_printerr(_("Warning: Layer %lu (%s) selected more than once.\n"), i, lay->name);
       visible_layers[i] = TRUE;
     }
 }
@@ -244,7 +244,7 @@ show_layers_parse_word(DiagramData *diagdata, gboolean *visible_layers, gint n_l
 	      && ((p[len] == 0) || (p[len] == ','))){
 	    found = TRUE;
 	    if (visible_layers[k] == TRUE)
-	      g_print(_("Warning: Layer %d (%s) selected more than once.\n"), k, lay->name);
+	      g_printerr(_("Warning: Layer %d (%s) selected more than once.\n"), k, lay->name);
 	    visible_layers[k] = TRUE;
 	  }
 	}
@@ -253,7 +253,7 @@ show_layers_parse_word(DiagramData *diagdata, gboolean *visible_layers, gint n_l
   }
 
   if (found == FALSE)
-    g_print(_("Warning: There is no layer named %s.\n"), str);
+    g_printerr(_("Warning: There is no layer named %s.\n"), str);
 }
 
 static void
@@ -381,7 +381,7 @@ do_convert(const char *infname,
   }
   else
     ef->export_func(diagdata, ctx, outfname, infname, ef->user_data);
-  /* if (!quiet) */ fprintf(stdout,
+  /* if (!quiet) */ fprintf(stderr,
                       _("%s --> %s\n"),
                         infname,outfname);
   g_object_unref(diagdata);
@@ -500,7 +500,7 @@ dump_dependencies(void)
     if ((len = readlink (PREFIX "/lib/libpango-1.0.so", linkedname, 1023)) > 0) {
       /* man 2 readlink : does not append a  NUL  character */
       linkedname[len] = '\0';
-      g_print ("%s/%s\n", PREFIX, linkedname);
+      g_printerr ("%s/%s\n", PREFIX, linkedname);
     }
   }
 #endif
@@ -758,10 +758,10 @@ app_init (int argc, char **argv)
 
     if (!g_option_context_parse (context, &argc, &argv, &error)) {
       if (error) { /* IMO !error here is a bug upstream, triggered e.g. with --gdk-debug=updates */
-	g_print ("%s", error->message);
+	g_printerr ("%s", error->message);
 	g_error_free (error);
       } else {
-	g_print (_("Invalid option?"));
+	g_printerr (_("Invalid option?"));
       }
 
       g_option_context_free(context);
@@ -784,7 +784,7 @@ app_init (int argc, char **argv)
 	  filename = g_filename_to_utf8 (filenames[i], -1, NULL, NULL, NULL);
 
 	if (!filename) {
-	  g_print (_("Filename conversion failed: %s\n"), filenames[i]);
+	  g_printerr (_("Filename conversion failed: %s\n"), filenames[i]);
 	  continue;
 	}
 
@@ -797,7 +797,7 @@ app_init (int argc, char **argv)
 	if (g_file_test (testpath, G_FILE_TEST_IS_REGULAR))
 	  files = g_slist_append(files, filename);
 	else {
-	  g_print (_("Missing input: %s\n"), filename);
+	  g_printerr (_("Missing input: %s\n"), filename);
 	  g_free (filename);
 	}
 	if (filename != testpath)
